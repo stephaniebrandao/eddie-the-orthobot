@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+/*
+Para títulos: Montserrat
+Para textos: Crimson Pro*/
+
+* {
+    background-color: #f2edea;
+    font-size: 12px;
+    margin: 0;
+}
+
+.intro-eddie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3D0A08;
+    color: #f2edea;
+}
+
+.hi-eddie {
+    font-size: 4rem;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #3D0A08;
+    color: #f2edea;
+    margin: 0 auto;
+    flex: 1;
+    text-align: center;
+}
+
+.ortho-bot {
+    font-size: 2em;
+    background-color: #3D0A08;
+    color: #f2edea;
+    flex: 1;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+h2 span {
+    font-size: 1em;
+    background-color: #3D0A08;
+    color: #f2edea;
+}
+
+.title_mont {
+    font-family: Montserrat;
+}
+
+.red-eddie-icon {
+    position: absolute;
+    top: 24px;
+    left: 34px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.nav_bar {
+    background-color: #3D0A08;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;   
+}
+
+.nav_text {
+    background-color: #3D0A08;
+    color: #f2edea;
+    padding: 15px;
+}
+
+.nav_bar a {
+    background-color: #3D0A08;
+    color: #f2edea;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    background-color: #A58570;
+    color: #3D0A08;
+    font-size: 1.25em;
+    padding: 5px;
+    text-decoration: underline;
+    border-radius: 8px;
+    transition-duration: 300ms;
+}
+
+.change_lang {
+    background-color: #3D0A08;
+    padding: 15px 20px 15px 0;
+    line-height: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.globe_lang {
+    background-color: #3D0A08;
+    color: #f2edea;
+    display: flex;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}

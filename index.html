@@ -4,44 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ORTHObot</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e35a5c2fc6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Hi! I'm Eddie —</h1>
-        <h2>the <span>ORTHO</span>bot!</h2>
-        <hr>
-        <br>
-        <p>I'm your <em>AI helper</em> for orthodontic cases — <b>making your life easier</b>, one smile at a time!</p>
-        <aside>Let's align some <span>ideas</span>!</aside>
-        <img src="./Copilot_20251117_205950.png" width="100px" height="150px" alt="AI helper Eddie. A bot with tiny glasses and a bow tie.">
-        <nav>
-            <p>How It Works</p>
-            <p>Plans & Pricing</p>
-            <p>FAQ</p>
-            <p>Login / Sign Up</p>
-            <p hidden>Dashboard</p>
-            <p>Contact / Support</p>
-            <p>About Eddie</p>
-            <p>Blog / Updates</p>
+        <img src="./red-eddie-icon.png" alt="AI helper Eddie. The head of a bot with tiny glasses and a bow tie." width="50px" height="50px" class="red-eddie-icon">
+        <nav class="nav_bar title_mont">    
+            <p class="nav_text"><a href="#">How It Works</a></p>
+            <p class="nav_text"><a href="#">Plans & Pricing</a></p>
+            <p class="nav_text"><a href="#">FAQ</a></p>
+            <p class="nav_text"><a href="#">Login / Sign Up</a></p>
+            <p class="nav_text" hidden><a href="#">Dashboard</a></p>
+            <p class="nav_text"><a href="#">Contact / Support</a></p>
+            <p class="nav_text"><a href="#">About Eddie</a></p>
+            <p class="nav_text"><a href="#">Blog / Updates</a></p>
+            <p class="nav_text"><a href="#">Try Eddie</a></p>
         </nav>
         <section>
-            <nav>
-                <p>Try Eddie</p>
-                <label>Language</label>
+            <nav class="change_lang">
+                <i class="fa-solid fa-globe globe_lang"></i>
                 <select name="language" id="language">
-                    <option value="">Select language</option>
+                    <option value="">Select...</option>
                     <option value="portuguese">Portuguese</option>
                     <option value="english">English</option>
                     <option value="french">French</option>
                 </select>
             </nav>
         </section>
+        <div class="intro-eddie">
+            <h1 class="hi-eddie title_mont">Hi! I'm Eddie —</h1>
+            <h2 class="ortho-bot title_mont">the <span>ORTHO</span>bot!</h2>
+        </div>
+        <div class="lines-eddie">
+            <p>I'm your <em>AI helper</em> for orthodontic cases — <b>making your life easier</b>, one smile at a time!</p>
+            <aside>Let's align some <span>ideas</span>!</aside>
+        </div>
+        <img src="./red-eddie.png" width="100px" height="150px" alt="AI helper Eddie. A bot with tiny glasses and a bow tie.">
     </header>
 
     <main>
         <section>
-            <h3>Fun facts about me:</h3>
+            <h3 class="title_mont">Fun facts about me:</h3>
             <ul>
                 <li>My name was inspired by <a href="https://en.wikipedia.org/wiki/Edward_Angle" target="_blank">Dr. Edward Hartley Angle</a>, the famous American dentist, widely known as the "father of modern orthodontics;</li>
                 <li>You can upload text-based documents of your orthodontic case and I will review it for you;</li>
@@ -52,7 +56,7 @@
         </section>
 
         <section>
-            <h3>How can I help you?</h3>
+            <h3 class="title_mont">How can I help you?</h3>
             <ol>
                 <li>Create your account;</li>
                 <li>Set up your profile;</li>
@@ -63,7 +67,7 @@
         </section>
 
         <article>
-            <h3>FAQ</h3>
+            <h3 class="title_mont">FAQ</h3>
             <dl> <!-- description list -->
                 <dt>Who is Eddie?</dt> <!-- description term -->
                 <dd>Eddie is an AI-powered assistant designed to help orthodontists simplify case management, generate reports, and provide smart suggestions for treatment protocols.</dd><br> <!-- descripton definition -->
@@ -84,7 +88,7 @@
     
         <section>
             <table>
-                <tr>
+                <tr class="title_mont">
                     <th>Plan</th>
                     <th>FREE</th>
                     <th>Standard</th>
@@ -148,7 +152,7 @@
         </section>
     </main>
     
-    <footer>
+    <footer class="title_mont">
         <p>Made with love &copy; 2025. All rights reserved.</p>
     </footer>
 </body>
