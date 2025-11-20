@@ -1,0 +1,31 @@
+.faq {
+    text-align: center;
+    font-family: Montserrat;
+
+}
+
+.ortho-faq {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 10px;
+}
+
+dt {
+    font-family: Montserrat;
+    font-size: 1.25em;
+    margin: 10px 70px;
+}
+
+dd {
+    font-family: 'Crimson Pro';
+    font-size: 1.2em;
+    margin: 10px 80px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/*.red-eddie-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}*/
