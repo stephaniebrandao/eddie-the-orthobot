@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;
+}
+
+.ortho-assist {
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    padding: 22.5px 0;
+}
+
+.ortho-text {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.ortho-pros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
+.ortho-list {
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+.red-eddie-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
