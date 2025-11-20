@@ -6,7 +6,7 @@ body {
     font-size: 2em;
     font-style: italic;
     text-align: center;
-    padding: 22.5px 0;
+    padding: 19px 0;
 }
 
 .ortho-text {
@@ -14,16 +14,31 @@ body {
     text-align: center;
 }
 
+.text-li {
+    font-size: 1.25;
+}
+
+.text-p {
+    font-size: 1.2em;
+}
+
 .ortho-pros {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 32%;
     column-gap: 10px;
+    line-height: 25px;
 }
 
 .ortho-list {
     margin-top: 30px;
     margin-left: 120px;
     margin-bottom: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.click-here {
+    color: #3D0A08;
 }
 
 .red-eddie-div {

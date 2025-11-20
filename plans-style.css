@@ -1,0 +1,33 @@
+.ortho-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    border: 1px dashed #3D0A08;
+}
+
+td {
+    font-family: 'Crimson Pro';
+}
+
+td, th {
+    padding: 7px 35px;
+}
+
+.price-btn a {
+    background-color: #3D0A08;
+    border-radius: 8px;
+    color: #f2edea;
+    padding: 5px;
+}
+
+.price-btn a:hover {
+    background-color: #A58570;
+    color: #3D0A08;
+}
+
+.footer-padding {
+    padding-bottom: 14px;
+}
