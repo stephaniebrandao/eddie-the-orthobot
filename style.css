@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-/*
-Para títulos: Montserrat
-Para textos: Crimson Pro*/
-
+/* basic styles for the webpage */
 * {
-    font-size: 16px;
     margin: 0;
+}
+
+body {
+    background-color: #f2edea;
+    font-size: 16px;
 }
 
 .title_mont {
@@ -18,6 +19,7 @@ Para textos: Crimson Pro*/
     font-family: 'Crimson Pro';
 }
 
+/* header styles */
 .red-eddie-icon {
     background-color: #f2edea;
     position: absolute;
@@ -73,7 +75,7 @@ Para textos: Crimson Pro*/
     align-self: center;
     font-size: 1.25em;
 }
-
+ /* main style */
 .intro-eddie {
     display: flex;
     justify-content: space-between;
@@ -101,7 +103,7 @@ Para textos: Crimson Pro*/
     flex: 1;
     text-align: left;
     padding-top: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 h2, .ortho {
@@ -110,18 +112,50 @@ h2, .ortho {
     color: #f2edea;
 }
 
+.container-eddie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-eddie {
+    width: 150px;
+    height: 225px;
+}
+
+.eddie-btn {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.eddie-btn a {
+    text-decoration: none;
+    color: #A58570;
+    background-color: #3D0A08;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.eddie-btn a:hover {
+    background-color: #A58570;
+    color: #3D0A08;
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 div.lines-eddie p,
 div.lines-eddie aside {
     font-size: 1.5em;
     text-align: center;
     color: #3D0A08;
-    margin-top: 15px;
+    margin-top: 25px;
     line-height: 15px;
 }
 
-.red-eddie {}
-
+/* footer style */
 footer {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.8em;
 }
