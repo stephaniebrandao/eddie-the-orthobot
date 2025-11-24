@@ -1,0 +1,50 @@
+.about-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.ortho-about {
+    grid-column: 2 / 3;
+    line-height: 30px;
+}
+
+.about-second-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    margin: 0 60px;
+    line-height: 30px;
+}
+
+.about-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-style: italic;
+}
+
+.about-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-style: italic;
+}
+
+.about-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    font-style: italic;
+}
+
+.about-paragraph-1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.about-paragraph-2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.about-paragraph-3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
