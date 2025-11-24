@@ -7,11 +7,13 @@ body {
     font-style: italic;
     text-align: center;
     padding: 19px 0;
+    color: #3D0A08;
 }
 
 .ortho-text {
     font-size: 1.5em;
     text-align: center;
+    color: #3D0A08;
 }
 
 .text-li {
